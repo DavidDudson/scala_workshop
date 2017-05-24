@@ -30,8 +30,6 @@
 3. Add the following methods to the data models
  - Person
    - name: String (full name)
- - Employee
-   - percentageOfLifeWorked
  - Family
    - elderly (Anyone over 65)
    - children (Anyone under 18)
