@@ -51,4 +51,28 @@
    - pets must be valid
  - Pets
    - Must be a max of 20 years old
-   - name is not valiadted
+   - name is not validated
+
+
+## Real world example
+
+We want to mess with the data in new_your_names.json
+
+1. Learn how to open it.
+ - scala.io.Source.fromFile(String)
+2. Use Circe + Lenses to access the data
+ - This can uses dynamic dispatch
+3. Build up a data model for each name
+ - Name
+ - Year
+ - Ethnicity (of mother)
+ - Gender
+ - Count
+4. Emit this data model as JSON
+5. Apply various sorting schemes to the data
+ - Sort by name
+ - Sort by count
+ - Sort by gender
+ - Sort by ethnicity
+6. Ignoring everything other the count
+ - what is the highest count name?
