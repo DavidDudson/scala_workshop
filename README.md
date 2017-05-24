@@ -1,0 +1,54 @@
+## Tasks
+
+1. Create a hello world app.
+ - Experiment with string interpolation and concatenation
+ - Familiarize yourself with primitives.
+2. Create the following data models
+ - Person
+   - age: Int
+   - firstName: String
+   - lastName: String
+   - pets: Set[Animal]
+ - Pet
+   - age: Int
+   - name: String
+   - sound: String (eg. "Woof")
+ - Dog
+   - age: Int
+   - name: String
+   - sound: String
+ - Werewolf (Half human, half dog)
+   - Bonus points for having a model that supports this
+   - Remember that a werewolf can have a pet, that is another werewolf
+ - Family
+   - humans: Set[Person]
+   - pets: Set[Animal]
+   - members: Set[???] 
+     - This is for bonus points
+     - contains humans and pets
+     - must 
+3. Add the following methods to the data models
+ - Person
+  - name: String (full name)
+ - Employee
+  - percentageOfLifeWorked
+ - Family
+  - elderly (Anyone over 65)
+  - children (Anyone under 18)
+  - adults (Anyone 18-65)
+ - Person
+   - age: Int
+     - Must be at least 18
+     - Must not be over 100
+   - firstName: String
+     - Min 2 characters
+     - Max 20 characters
+     - Can only contain [a-z]
+   - lastName: String
+     - Min 2 characters
+     - Max 20 characters
+     - Can only contain [a-z]
+   - pets must be valid
+ - Pets
+   - Must be a max of 20 years old
+   - name is not valiadted
