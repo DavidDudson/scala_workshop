@@ -29,13 +29,13 @@
      - must 
 3. Add the following methods to the data models
  - Person
-  - name: String (full name)
+   - name: String (full name)
  - Employee
-  - percentageOfLifeWorked
+   - percentageOfLifeWorked
  - Family
-  - elderly (Anyone over 65)
-  - children (Anyone under 18)
-  - adults (Anyone 18-65)
+   - elderly (Anyone over 65)
+   - children (Anyone under 18)
+   - adults (Anyone 18-65)
  - Person
    - age: Int
      - Must be at least 18
